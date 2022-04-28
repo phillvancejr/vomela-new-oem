@@ -27,7 +27,6 @@ func main() {
 	company = strings.TrimSuffix(company, "\n")
 
 	print("project year: ")
-	// fmt.Scanln(&year)
 	year, _ := stdin.ReadString('\n')
 	year = strings.TrimSuffix(year, "\n")
 	if len(year) == 2 {
@@ -35,13 +34,11 @@ func main() {
 	}
 
 	print("project id: ")
-	// fmt.Scanln(&id)
 	id, _ := stdin.ReadString('\n')
 	id = strings.TrimSuffix(id, "\n")
 	id = fmt.Sprintf("%04s", id)
 
 	print("design number: ")
-	// fmt.Scanln(&number)
 	number, _ := stdin.ReadString('\n')
 	number = strings.TrimSuffix(number, "\n")
 
